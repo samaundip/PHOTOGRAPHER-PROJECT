@@ -33,10 +33,10 @@ body {
     top:40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     font-family: "Segoe UI", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 48px;
+    font-weight: 600;
+    font-size: 68px;
 
 }
 .header .text h3{
@@ -63,7 +63,7 @@ body {
     transform: translate(-50%,-50%);
     letter-spacing: 5px;
     font-family: "Segoe UI", Arial, sans-serif;
-    font-weight: 200;
+    font-weight: 600;
     font-size: 24px;
 
 }
@@ -108,13 +108,16 @@ body {
 }
 .main-pro{
    
-    padding: 635px 800px;
+     padding: 635px ;
     vertical-align: middle;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    /* margin-top: 16px; */
+    margin-left: 124px;
+    margin-right: 124px;
+    gap: 20px;
 
 }
 .main-pro img{
@@ -122,9 +125,91 @@ body {
 
 }
 
-.contact-sec{
+#contact-sec{
 
     height: 100vh;
-    width: 100%;
+    /* width: 100%; */
+     padding-top: 2720px ;
+    /* padding-left: 370px;  */
+    vertical-align: middle;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 245px;
+    margin-right: 100px;
     
+}
+
+.contact-me{
+    background-color: #f1f1f1;
+    /* padding-right:840px ; */
+    /* text-align: center; */
+    margin-top: 16px;
+   
+
+}
+.contact-me h3{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+     */
+    text-align: center;
+    margin: 20px;
+    /* padding: 24px 12px; */
+    /* padding-right: 930px ;
+    */
+  font-size: 30px; 
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+
+
+}
+.contact-me p{
+    font-size: 20px; 
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    text-align: justify;
+
+}
+.contact-me label{
+    font-size: 20px; 
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+
+}
+.contact-me input, .mass{
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.contact-me .butt{
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px; 
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    color: #f1f1f1;
+    background-color: black;
+
+}
+.contact-me .butt:hover{ color: black;
+    background-color: #cccccc;
+
+}
+h5{
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px; 
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+h5 a{
+    color: black;
 }
