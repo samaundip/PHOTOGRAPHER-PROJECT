@@ -129,7 +129,7 @@ body {
 
     height: 100vh;
     /* width: 100%; */
-     padding-top: 2720px ;
+     padding-top: 2890px ;
     /* padding-left: 370px;  */
     vertical-align: middle;
     display: flex;
@@ -137,8 +137,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-left: 245px;
-    margin-right: 100px;
+    margin-left: 255px;
+    margin-right: 90px;
     
 }
 
