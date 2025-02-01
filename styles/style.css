@@ -18,13 +18,13 @@ body {
     position: absolute;
 }
 
-.header.img01{ 
+.header  img{ 
     
     
-    object-fit: cover;
+    object-fit: cover; 
     width: 100%;
     height: auto;
-    object-position: top;
+     object-position: top; 
     
 }
 .header .text h1{
@@ -108,15 +108,15 @@ body {
 }
 .main-pro{
    
-     padding: 635px ;
+     padding: 580px ;
     vertical-align: middle;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* margin-top: 16px; */
-    margin-left: 124px;
-    margin-right: 124px;
+    /* margin-top: 16px;  */
+    margin-left: 60px;
+    margin-right: 80px;
     gap: 20px;
 
 }
@@ -129,7 +129,7 @@ body {
 
     height: 100vh;
     /* width: 100%; */
-     padding-top: 2890px ;
+     padding-top: 2830px ;
     /* padding-left: 370px;  */
     vertical-align: middle;
     display: flex;
@@ -137,8 +137,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-left: 255px;
-    margin-right: 90px;
+    margin-left: 160px;
+    margin-right: 185px;
     
 }
 
