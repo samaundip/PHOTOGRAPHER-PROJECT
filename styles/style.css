@@ -4,7 +4,7 @@
 
 }
 
-
+/* body */
 
 body {
     font-family: Verdana, sans-serif;
@@ -14,23 +14,25 @@ body {
     
 }
 
+/* header start */
 #header-sh{
     height: 90vh;
 }
+/*  header 01 */
 .header{
     display: block;
     position: absolute;
 }
+/* header img */
 
 .header  img{ 
-    
-    
       object-fit: cover; 
       width: 100%;
       height: auto;
       object-position: top; 
     
 }
+/* header text */
 .header .text h1{
     position: absolute;
     color: #e8ece2;
@@ -43,6 +45,7 @@ body {
     font-size: 68px;
 
 }
+/* header h3 */
 .header .text h3{
     position: absolute;
     color: #e8ece2;
@@ -55,6 +58,7 @@ body {
     font-size: 24px;
 
 }
+/* header text */
  #text{
     border: 1px solid #cccccc;
     padding: 34px 15px;
@@ -71,7 +75,7 @@ body {
     font-size: 24px;
 
 }
-
+/* header navber */
          
 .navbar  {
     position: absolute;
@@ -79,14 +83,16 @@ body {
     bottom: -15px;
     padding: 8px 16px;
     transform: translate(-50%,0);
-    
     background-color: #f3e9e4 ;
     border-radius: 5px;
     display: block;
     
     z-index: 999;
-
+   
+   
 }
+
+/* header navber a */
 .navbar a{
      text-decoration: none;
      color: black;
@@ -94,15 +100,17 @@ body {
      width: 100px;
      height: 100px;
      margin: 10px;
-    position: 8px 16px;
-    cursor: pointer;
+     position: 8px 16px;
+     cursor: pointer;
 
     
 }
+/* header nav hover */
 .navbar a:hover{
     background-color:#cccccc;
       
 } 
+/* portfolio  */
 
 #portfolio{
     height: 400vh;
@@ -110,6 +118,7 @@ body {
     
 
 }
+/* portfolio main */
 .main-pro{
    
     padding: -450px ;
@@ -129,18 +138,19 @@ body {
 
 }
 
+/* contact */
 #contact{
 
     height: 100vh;
     /* width: 100%; */
-     padding-top: 16px ;
+     padding-top: -16px ;
     /* padding-left: 370px;  */
     vertical-align: middle;
     display: flex;
     flex-wrap:nowrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    /* gap: 16px; */
     margin-left: 165px;
     margin-right: 185px;
     
@@ -154,11 +164,9 @@ body {
    
 
 }
+
 .contact-me h3{
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-     */
+   
     text-align: center;
     margin: 20px;
     /* padding: 24px 12px; */
@@ -170,6 +178,7 @@ body {
 
 
 }
+/* contact pra */
 .contact-me p{
     font-size: 20px; 
     font-family: "Segoe UI", Arial, sans-serif;
@@ -178,6 +187,7 @@ body {
     text-align: justify;
 
 }
+/* form */
 .contact-me label{
     font-size: 20px; 
     font-family: "Segoe UI", Arial, sans-serif;
@@ -191,6 +201,7 @@ body {
     margin-left: 20px;
 
 }
+/* form butt */
 .contact-me .butt{
     width: 90%;
     padding: 10px;
@@ -207,6 +218,7 @@ body {
     background-color: #cccccc;
 
 }
+/* h5 */
 h5{
     margin: 20px;
     padding: 20px;
